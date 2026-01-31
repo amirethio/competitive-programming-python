@@ -16,6 +16,7 @@
 arrange = list(map(int , list(input())))
 answer = "NO"
 
+
 for i in range(0,len(arrange)-6):
     if(len(arrange) < 7):
         print("here")
