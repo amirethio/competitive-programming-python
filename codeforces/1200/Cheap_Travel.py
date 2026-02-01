@@ -15,22 +15,22 @@
 # 4. else count as the no of speciall if its can't be zero add normal using //
 
 
-# [rides_no, special_no, normal_price, special_price] = list(map(int, input().split()))
+[rides_no, special_no, normal_price, special_price] = list(map(int, input().split()))
 
-# if normal_price <= (special_price / special_no):
-#     print(int(rides_no * normal_price))
-# elif rides_no % (special_no / special_price) == 0:
-#     print(int(rides_no * (special_price / special_no)))
+if normal_price <= (special_price / special_no):
+    print(int(rides_no * normal_price))
+elif rides_no % (special_no / special_price) == 0:
+    print(int(rides_no * (special_price / special_no)))
 
-# else:
-#     special = int(rides_no / special_no)
-#     normal = rides_no - (special_no * special)
-#     special_noraml = (special * special_price) + (normal * normal_price)
-#     special_only = (special * special_price) + special_price
-#     if(special_noraml <= special_only):
-#         print(int(special_noraml))
-#     else:
-#         print(int(special_only)) 
+else:
+    special = int(rides_no / special_no)
+    normal = rides_no - (special_no * special)
+    special_noraml = (special * special_price) + (normal * normal_price)
+    special_only = (special * special_price) + special_price
+    if(special_noraml <= special_only):
+        print(int(special_noraml))
+    else:
+        print(int(special_only)) 
 
 
 
@@ -38,12 +38,12 @@
 
 
 
-rides_no, special_no, normal_price, special_price = map(int, input().split())
+# rides_no, special_no, normal_price, special_price = map(int, input().split())
 
-cost_all_normal = rides_no * normal_price
-cost_all_special = ((rides_no + special_no - 1) // special_no) * special_price
-cost_mixed = (rides_no // special_no) * special_price + (rides_no % special_no) * normal_price
+# cost_all_normal = rides_no * normal_price
+# cost_all_special = ((rides_no + special_no - 1) // special_no) * special_price
+# cost_mixed = (rides_no // special_no) * special_price + (rides_no % special_no) * normal_price
 
-print(min(cost_all_normal, cost_mixed, cost_all_special))
+# print(min(cost_all_normal, cost_mixed, cost_all_special))
 
     
