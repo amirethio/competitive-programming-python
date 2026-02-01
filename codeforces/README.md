@@ -4,4 +4,4 @@ High-frequency patterns
 - Two pointers
 - Greedy with sorting
 - Math observations (parity, mod, gcd)
-- Simulation with edge cases
+- Simulation with edge cases    
