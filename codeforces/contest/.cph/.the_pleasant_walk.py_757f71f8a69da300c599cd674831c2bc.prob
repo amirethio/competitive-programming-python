@@ -1,0 +1,1 @@
+{"name":"Local: the_pleasant_walk","url":"/home/miraz/Desktop/CP/codeforces/contest/the_pleasant_walk.py","tests":[{"id":1770322536635,"input":"10 0\n1 2 3 3 2 1 2 5 1 2\n","output":"4\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/miraz/Desktop/CP/codeforces/contest/the_pleasant_walk.py","group":"local","local":true}
